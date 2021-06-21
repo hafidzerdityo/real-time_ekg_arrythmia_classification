@@ -13,4 +13,4 @@ Using python library "Serial", you can communicate arduino serial monitor value 
 Low pass filter, and cubic spline interpolation is used to eliminate unecessary noise, so you can detect r peak easier.
 Classification is done using artificial neural network, using MLPClassifier from sci-kit learn.
 Monitoring done in 60 seconds, and every 3 seconds ECG curve will updated while also presenting BPM,SDNN,RMSSD,PNN50 Value in real time.
-After 60 seconds, system will automatically classify with 2 class, Normal Sinus Rythm or Arrythmia.
+After 60 seconds, system will automatically determine one of the two classes, which Normal Sinus Rythm or Arrythmia.
